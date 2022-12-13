@@ -183,7 +183,11 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
     background-color: rgb(69, 1, 69) !important;
 }
 
-#twitter{
-    background-image:url(../images/linkedin.png);
-    color:red;
+#back {
+  color: rgb(69, 1, 69) !important;
+  text-decoration: none;
+  background-color: transparent;
+  font-size: larger;
+  font-weight: bold;
+  text-align: right;
 }
