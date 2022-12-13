@@ -1,0 +1,83 @@
+
+
+
+
+
+/* Navigation bar */
+
+/* General */
+.customNav {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(69, 1, 69) !important;
+    background-size: cover;
+    z-index: 10;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+}
+
+.navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+}
+
+.nav-item {
+    margin: 0px 15px;
+}
+
+/* Navigation dropdown menu */
+.dropdown-menu {
+    background-color: rgb(69, 1, 69) !important;
+    background-size: cover;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background: black;
+}
+
+/* Navigation links */
+.customNav a {
+    color: white !important;
+}
+
+.navCTA {
+    font-size: 15px;
+}
+
+
+/* Jumbotron  */
+.jumbotron {
+  background-image: url(../images/hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Jumbotron copy */
+.jumboCopy {
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    color: rgb(49, 1, 1);
+    text-align: center;
+    text-decoration-style: dotted;
+    text-decoration: solid;
+    text-decoration-thickness: 5px;
+    background-color:transparent;
+    margin-top:60%;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #410b41;
+    border-color: #007bff;
+}
